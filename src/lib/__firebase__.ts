@@ -6,14 +6,13 @@ import "firebase/firestore";
 import "firebase/storage";
 
 let firebaseConfig = {
-  /*
-  apiKey: 'AIzaSyC-er4SimSB1tDD6RXiFjtJqFAScOTT4FU',
-  authDomain: '*.firebaseapp.com',
-  projectId: '****',
-  storageBucket: '*.appspot.com',
-  messagingSenderId: '****',
-  measurementId: '***',
-  */
+  apiKey: "AIzaSyBqOuLGziDmZsyF8MZK42THhosjOZSMbSw",
+  authDomain: "novela-22321.firebaseapp.com",
+  projectId: "novela-22321",
+  storageBucket: "novela-22321.appspot.com",
+  messagingSenderId: "838025701315",
+  appId: "1:838025701315:web:c39285f42ed8707c757f76",
+  measurementId: "G-7TPW995VYF",
 };
 
 // Initialize Firebase
