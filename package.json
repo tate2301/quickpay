@@ -2,12 +2,12 @@
   "name": "nextchakra-starter",
   "version": "0.1.1",
   "private": true,
-  "author": "sozonome",
+  "author": "tate2301",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint --max-warnings=1",
     "format": "prettier --write src",
     "up-latest": "yarn upgrade-interactive --latest",
     "release": "standard-version",
@@ -42,7 +42,7 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "eslint --max-warnings=0",
+      "eslint --max-warnings=1",
       "prettier --write"
     ]
   }
